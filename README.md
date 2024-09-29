@@ -1,5 +1,5 @@
 # Cute React app that shows you what season you're in!
-![screern](https://imgur.com/a/sjRXM7g)
+![screen](https://i.imgur.com/eyXs8Jv.png)
 
 ## Available Scripts
 
