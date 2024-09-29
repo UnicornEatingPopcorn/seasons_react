@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cute React app that shows you what season you're in!
+![screern](https://imgur.com/a/sjRXM7g)
 
 ## Available Scripts
 
