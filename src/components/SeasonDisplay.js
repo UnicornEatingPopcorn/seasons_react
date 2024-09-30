@@ -23,7 +23,7 @@ class SeasonDisplay extends React.Component {
   }
 
   componentDidMount() {
-    const currentMonthName = this.state.monthNames[new Date().getMonth() + 1]
+    const currentMonthName = this.state.monthNames[new Date().getMonth()]
     this.setState({currentMonthName})
   }
 
@@ -36,7 +36,7 @@ class SeasonDisplay extends React.Component {
   };
 
   render () {
-    const season = this.getSeason(this.props.lat, new Date().getMonth() + 1);
+    const season = this.getSeason(this.props.lat, new Date().getMonth());
     const { text, iconName } = this.state.seasons[season];
 
     return (
